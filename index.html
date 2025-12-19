@@ -614,13 +614,6 @@
         <div class="contact-content">
             <p class="contact-text">For collaborations, commissions, and general inquiries:</p>
             <a href="mailto:garconeyma@gmail.com" class="contact-email">garconeyma@gmail.com</a>
-            
-            <form class="contact-form" id="contactForm">
-                <input type="text" class="form-input" placeholder="Your Name" required>
-                <input type="email" class="form-input" placeholder="Your Email" required>
-                <textarea class="form-textarea" placeholder="Your Message" required></textarea>
-                <button type="submit" class="form-submit">Send Message</button>
-            </form>
         </div>
     </section>
 
@@ -639,13 +632,6 @@
                     target.scrollIntoView({ behavior: 'smooth' });
                 }
             });
-        });
-
-        // Contact form handling
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
         });
     </script>
 </body>
